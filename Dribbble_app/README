@@ -1,6 +1,0 @@
-branches
-	share: Share shot using Intent.
-	bucket_1: Loading user buckets from Dribbble API. See details in slides.
-	bucket_2: Create-new-bucket feature. See details in slides.
-	bucket_3: Added choosing mode to BucketListFragment.
-	bucket_4: Connected ShotFragment with BucketListFragment (choosing mode).
