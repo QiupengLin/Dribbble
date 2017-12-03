@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_likes">点赞</string>
+    <string name="drawer_menu_likes">点赞</string>
+    <string name="title_buckets">收藏</string>
+    <string name="drawer_menu_buckets">收藏</string>
+</resources>

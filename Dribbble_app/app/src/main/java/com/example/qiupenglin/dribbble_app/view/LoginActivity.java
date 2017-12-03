@@ -55,7 +55,11 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void run() {
                     try {
+                        //this is a network call and it's time comsuming
+                        //that's why we're doing this in a non-UI thread
                         String token = Auth.fetchAccessToken(authCode);
+
+                        // store access token in SharedPreferences
                         Dribbble.login(LoginActivity.this, token);
 
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
