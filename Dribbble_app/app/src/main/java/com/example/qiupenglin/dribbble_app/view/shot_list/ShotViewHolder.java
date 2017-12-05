@@ -16,7 +16,6 @@ class ShotViewHolder extends BaseViewHolder {
     @BindView(R.id.shot_bucket_count) public TextView bucketCount;
     @BindView(R.id.shot_view_count) public TextView viewCount;
     @BindView(R.id.shot_image) public SimpleDraweeView image;
-//    @BindView(R.id.shot_image) public ImageView image;
 
     public ShotViewHolder(View itemView) {
         super(itemView);
